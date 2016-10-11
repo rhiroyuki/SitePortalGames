@@ -4,6 +4,7 @@ Project to learn new technologies
 Setup install
   - ruby 2.3.1
   - rails 5
+  - sqlite 1.3.11
   - pg 0.18
 
 Run
