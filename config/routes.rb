@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  root 'portal_pages#home'
+
   get 'portal_pages/home'
 
   get 'portal_pages/pc'
