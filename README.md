@@ -1,18 +1,24 @@
-# PortalGames
-Project to learn new technologies
+# README
 
-Setup install
-  - ruby 2.3.1
-  - rails 5
-  - sqlite 1.3.11
-  - pg 0.18
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Run
-  - bundle install --without production
-  - Then start the server with the following command:
-  - $ rails s
-  - That's it! Just go to http://localhost:3000.
+Things you may want to cover:
 
-Rules
-  - never accept your own PR
-  - every modification create a new branch and then push it
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
