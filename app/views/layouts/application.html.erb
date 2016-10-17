@@ -2,12 +2,12 @@
 <html>
   <head>
     <title>Portal Games</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" />
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
 
   <body>
     <header>
@@ -16,14 +16,15 @@
             <li><a href ="#">Novidades</a></li>
             <li><a href ="#">PC</a></li>
             <li><a href ="#">Tech</a></li>
-            <li><a href ="#">lupa</a></li>
-            <input  text ="insira a busca"
-             name="dataNasc" id="data-nasc">
+            <li><a class="fa fa-search" href ="#"></a></li>
+            <input  text ="Insira a busca"
+             name="busca" id="busca">
             <li><a href ="#">Entrar</a></li>
-            <li><a href ="#">ícone</a></li>
+            <li><a class="fa fa-user" href ="#"></a></li>
         </ul>
      </nav>
     </header>
     <%= yield %>
   </body>
+
 </html>
