@@ -1,40 +1,81 @@
-/* Resets */
+/* general */
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
 
 a {
     text-decoration: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Menu */
 .menu {
+  margin-top: auto;
   display: flex;
-  justify-content: space-around;
+  flex-flow: row;
   background: #224175;
   padding: 1em;
   margin: -0.7em;
   height: 1.5em;
+  position: fixed;
+  width: 100%;
 }
 
 .menu li {
   list-style: none;
   font-size: 1.5em;
   font-family: 'Exo 2', sans-serif;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+  margin: auto;
 }
 
 .menu a {
   color: white;
 }
 
-.menu img {
-  width: 30px;
-  height: 30px;
-}
-
-.menu input {
-  height: 1.5em;
+.fa-search span{
+  padding-left: 1em;
 }
 
 .fa-user {
-  margin-top: -5px;
+  margin-top: -1px;
   font-size: 1.5em;
+
+}
+
+.fa-user span {
+  font-family: 'Exo 2', sans-serif;
+  font-size:20px;
+  padding-left: 1em;
+}
+
+/* Home */
+.headerhome {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  background-image: url("https://source.unsplash.com/collection/261936/technology");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.headerhome a {
+  color: #FFF;
+  margin: auto;
+  padding: 40px 60px;
+  background-color: rgba(34, 65, 117, 0.7);
+  border-radius: 3%;
+  transition: all 0.2s ease;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 30px;
+}
+
+.headerhome a:hover {
+  background-color: rgba(28, 54, 98, 0.9);
 }
